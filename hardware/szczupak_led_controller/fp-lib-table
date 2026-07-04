@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "FOOTPRINTS") (type "KiCad") (uri "C:/Users/jakub/Documents/_KiCad/AGH_MARINES/Szczupak/Oswietlenie/libraries/Footprints") (options "") (descr ""))
+	(lib (name "szczupak_led_controller") (type "KiCad") (uri "${KIPRJMOD}/libraries/Footprints") (options "") (descr ""))
 )

@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "Symbols") (type "KiCad") (uri "C:/Users/jakub/Documents/_KiCad/AGH_MARINES/Szczupak/Oswietlenie/libraries/Symbols") (options "") (descr ""))
+	(lib (name "szczupak_led_controller") (type "KiCad") (uri "${KIPRJMOD}/libraries/Symbols") (options "") (descr ""))
 )
