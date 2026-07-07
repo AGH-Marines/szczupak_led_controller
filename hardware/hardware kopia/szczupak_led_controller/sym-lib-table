@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "szczupak_led_controller") (type "KiCad") (uri "${KIPRJMOD}/libraries/Symbols") (options "") (descr ""))
-)
