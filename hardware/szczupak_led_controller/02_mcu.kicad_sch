@@ -5,7 +5,7 @@
 	(uuid "0cda6a5d-0c1f-482a-ab93-5d1914e56f04")
 	(paper "A4")
 	(title_block
-		(title "led_driver - 02_mcu")
+		(title "led_controller - 02_mcu")
 		(date "2026-06-29")
 	)
 	(lib_symbols
@@ -409,6 +409,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -733,6 +899,172 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2440,13 +2772,7 @@
 		(uuid "9a7ee52a-dbdd-4481-89dc-f2c5339cb034")
 	)
 	(junction
-		(at 30.48 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a886c8d3-7f44-4935-a2df-2fe6bfb740a6")
-	)
-	(junction
-		(at 30.48 156.21)
+		(at 33.02 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b18c2f6c-4a5b-4066-b995-861d24153d36")
@@ -2617,13 +2943,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 53.34 83.82)
+			(xy 76.2 88.9) (xy 76.2 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "24c4a3b2-26fa-465d-b7b1-c4f628ef366e")
+	)
+	(wire
+		(pts
+			(xy 40.64 88.9) (xy 44.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fafff6-5b96-43e8-888e-ca61307c94ef")
 	)
 	(wire
 		(pts
@@ -2637,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 146.05) (xy 72.39 146.05)
+			(xy 60.96 137.16) (xy 74.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2647,17 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 134.62) (xy 30.48 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3033779f-0592-4862-9dbb-3c53de373602")
-	)
-	(wire
-		(pts
-			(xy 30.48 146.05) (xy 30.48 156.21)
+			(xy 33.02 137.16) (xy 33.02 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2667,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 156.21) (xy 50.8 156.21)
+			(xy 46.99 147.32) (xy 53.34 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2707,16 +3033,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 87.63) (xy 53.34 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4f2773-a411-4b73-b3c9-e70ee326ad56")
-	)
-	(wire
-		(pts
 			(xy 166.37 77.47) (xy 184.15 77.47)
 		)
 		(stroke
@@ -2734,6 +3050,16 @@
 			(type default)
 		)
 		(uuid "4001a850-cff6-4fb9-aab3-2b240da6723f")
+	)
+	(wire
+		(pts
+			(xy 68.58 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426ef3e8-6380-403c-8e72-970dd21a682a")
 	)
 	(wire
 		(pts
@@ -2787,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 72.39 156.21)
+			(xy 60.96 147.32) (xy 74.93 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 146.05) (xy 50.8 146.05)
+			(xy 46.99 137.16) (xy 53.34 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2827,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 95.25) (xy 49.53 95.25)
+			(xy 44.45 96.52) (xy 40.64 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2907,23 +3233,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 95.25) (xy 53.34 102.87)
+			(xy 44.45 96.52) (xy 44.45 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79b2ba2a-5fbb-4e0a-a746-5f9845eec65c")
-	)
-	(wire
-		(pts
-			(xy 72.39 132.08) (xy 72.39 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79defec1-276e-4cc3-9432-49cb6f110776")
 	)
 	(wire
 		(pts
@@ -3007,7 +3323,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 97.79) (xy 71.12 97.79)
+			(xy 40.64 99.06) (xy 59.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3067,16 +3383,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 134.62) (xy 50.8 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2fddcd5-40b0-4694-8df2-fcf9890cb6c7")
-	)
-	(wire
-		(pts
 			(xy 104.14 90.17) (xy 115.57 90.17)
 		)
 		(stroke
@@ -3094,6 +3400,16 @@
 			(type default)
 		)
 		(uuid "a977b1b2-8cd9-4f71-b445-f79efb3e6b9b")
+	)
+	(wire
+		(pts
+			(xy 54.61 88.9) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba65a27-e309-4cfe-946f-925b6034a6fe")
 	)
 	(wire
 		(pts
@@ -3147,26 +3463,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 134.62) (xy 72.39 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd23d37d-bc31-43f7-b463-d8d20f9f1f55")
-	)
-	(wire
-		(pts
-			(xy 30.48 134.62) (xy 30.48 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be06c2e1-03b2-4a9a-84b5-542ea9dd035e")
-	)
-	(wire
-		(pts
 			(xy 36.83 35.56) (xy 76.2 35.56)
 		)
 		(stroke
@@ -3197,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 146.05) (xy 30.48 146.05)
+			(xy 39.37 137.16) (xy 33.02 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3297,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 156.21) (xy 30.48 158.75)
+			(xy 33.02 147.32) (xy 33.02 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3307,7 +3603,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 92.71) (xy 71.12 92.71)
+			(xy 40.64 93.98) (xy 59.69 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3623,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 156.21) (xy 36.83 156.21)
+			(xy 33.02 147.32) (xy 39.37 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3367,7 +3663,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 90.17) (xy 71.12 90.17)
+			(xy 40.64 91.44) (xy 59.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3416,7 +3712,7 @@
 		(uuid "0aea6142-0d5e-4e3c-9793-db3596623309")
 	)
 	(label "LED_STATUS"
-		(at 72.39 146.05 180)
+		(at 74.93 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3566,7 +3862,7 @@
 		(uuid "c364ffbf-4963-4042-a774-cd8fbd76d5b1")
 	)
 	(label "LED_FAULT"
-		(at 72.39 156.21 180)
+		(at 74.93 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,7 +3872,7 @@
 		(uuid "c4e4ec54-18d3-4a03-b92e-c0e5ad69463f")
 	)
 	(label "SWCLK_BOOT0"
-		(at 71.12 97.79 180)
+		(at 59.69 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3646,7 +3942,7 @@
 		(uuid "fa5c3995-00fc-47c3-8d71-015a34308f18")
 	)
 	(label "NRST"
-		(at 71.12 90.17 180)
+		(at 59.69 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3656,7 +3952,7 @@
 		(uuid "fcd61ac7-361c-4b9c-b97e-a0efca3016c9")
 	)
 	(label "SWDIO"
-		(at 71.12 92.71 180)
+		(at 59.69 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3749,7 +4045,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 102.87 0)
+		(at 44.45 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3760,7 +4056,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b4ba5af-4273-4411-ab8d-3c8127c3a925")
 		(property "Reference" "#PWR012"
-			(at 53.34 109.22 0)
+			(at 44.45 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,7 +4067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 107.95 0)
+			(at 44.45 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3781,7 +4077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 102.87 0)
+			(at 44.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +4088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 102.87 0)
+			(at 44.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +4099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 102.87 0)
+			(at 44.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3827,7 +4123,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 53.34 83.82 0)
+		(at 76.2 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3838,7 +4134,7 @@
 		(fields_autoplaced yes)
 		(uuid "10282d4f-8cbd-4527-8a1a-ee67c16cae56")
 		(property "Reference" "#PWR011"
-			(at 53.34 87.63 0)
+			(at 76.2 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3849,7 +4145,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 53.34 78.74 0)
+			(at 76.2 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3859,7 +4155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 83.82 0)
+			(at 76.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3870,7 +4166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 83.82 0)
+			(at 76.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +4177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 53.34 83.82 0)
+			(at 76.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4134,7 +4430,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 158.75 0)
+		(at 33.02 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4144,7 +4440,7 @@
 		(dnp no)
 		(uuid "1f09982b-4f6a-46bb-b19f-66e4ce86fcc8")
 		(property "Reference" "#PWR013"
-			(at 30.48 165.1 0)
+			(at 33.02 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,7 +4451,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.036 160.782 0)
+			(at 36.576 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4165,7 +4461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 158.75 0)
+			(at 33.02 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 158.75 0)
+			(at 33.02 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 158.75 0)
+			(at 33.02 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,8 +4748,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 54.61 134.62 0)
+		(lib_id "Device:D_Schottky")
+		(at 64.77 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4461,10 +4757,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65a0882b-083a-43c0-a25f-21d6e4eb69c0")
-		(property "Reference" "D3"
-			(at 53.0225 128.27 0)
+		(uuid "53135e8b-b988-4d6d-9daf-1595dab241d1")
+		(property "Reference" "D11"
+			(at 61.468 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4473,8 +4768,8 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 53.0225 130.81 0)
+		(property "Value" "STPS140Z"
+			(at 65.0875 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4483,8 +4778,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 54.61 134.62 0)
+		(property "Footprint" "szczupak_led_controller:SOD3816X145N"
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4494,8 +4789,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 134.62 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stps140z.pdf"
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4505,8 +4800,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 54.61 134.62 0)
+		(property "Description" "Schottky diode"
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,8 +4811,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 54.61 134.62 0)
+		(property "Height" "1.45"
+			(at 53.34 -308.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,96 +4820,67 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 53.34 -408.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 53.34 -508.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 53.34 -608.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STPS140Z"
+			(at 53.34 -708.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "7fd193b3-5007-4fb9-930c-95ea6e19fb20")
 		)
 		(pin "2"
-			(uuid "7ca1c055-2ffb-4fff-baef-4baec5e16786")
-		)
-		(pin "1"
-			(uuid "dc0057d6-8e1f-4dc6-82e4-8e72d3535df6")
+			(uuid "ad9ce51c-d802-44b5-b931-4ac08f2505ce")
 		)
 		(instances
 			(project "szczupak_led_controller"
 				(path "/82787724-f8b9-4427-a07f-3a545a8c045b/abee54f0-2cdb-4b7f-9e1c-eeaa0dc000f5"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 72.39 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bdb7f7f-7190-4ada-a1cd-18a70964ab32")
-		(property "Reference" "#PWR014"
-			(at 72.39 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 72.39 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 72.39 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a1b164f-debd-444b-92d5-b35b629bdffb")
-		)
-		(instances
-			(project "szczupak_led_controller"
-				(path "/82787724-f8b9-4427-a07f-3a545a8c045b/abee54f0-2cdb-4b7f-9e1c-eeaa0dc000f5"
-					(reference "#PWR014")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5011,7 +5277,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 156.21 270)
+		(at 43.18 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5019,30 +5285,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "990abd0c-1095-4be8-b3a9-a302113c4d0a")
 		(property "Reference" "R4"
-			(at 40.64 149.86 90)
+			(at 40.132 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1k"
-			(at 40.64 152.4 90)
+			(at 40.132 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 154.432 90)
+			(at 43.18 145.542 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5053,7 +5320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 156.21 0)
+			(at 43.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5064,7 +5331,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 156.21 0)
+			(at 43.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5723,7 +5990,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 54.61 156.21 0)
+		(at 57.15 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5731,30 +5998,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b04128b6-eaed-4c5c-ac23-be349794b5cf")
 		(property "Reference" "D2"
-			(at 53.0225 149.86 0)
+			(at 53.34 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED"
-			(at 53.0225 152.4 0)
+			(at 53.34 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 54.61 156.21 0)
+			(at 57.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5765,7 +6033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 156.21 0)
+			(at 57.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5776,7 +6044,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 54.61 156.21 0)
+			(at 57.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5787,7 +6055,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 54.61 156.21 0)
+			(at 57.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5814,7 +6082,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 44.45 92.71 180)
+		(at 35.56 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5825,7 +6093,7 @@
 		(fields_autoplaced yes)
 		(uuid "c193d7ca-03b1-481e-bf99-f13148a66d08")
 		(property "Reference" "J1"
-			(at 44.45 81.28 0)
+			(at 35.56 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5835,7 +6103,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 44.45 83.82 0)
+			(at 35.56 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5845,7 +6113,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 44.45 92.71 0)
+			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,7 +6124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 92.71 0)
+			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5867,7 +6135,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 92.71 0)
+			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +6171,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 134.62 270)
+		(at 43.18 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5911,110 +6179,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1eb1f99-3ecf-4a42-8cc1-7ad8119989e1")
-		(property "Reference" "R5"
-			(at 40.64 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 40.64 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 132.842 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 40.64 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b338fe88-fcd2-4a65-bdd0-490addb07b48")
-		)
-		(pin "2"
-			(uuid "7f6fda0e-61b2-4df0-ae1c-ce51ac482258")
-		)
-		(instances
-			(project "szczupak_led_controller"
-				(path "/82787724-f8b9-4427-a07f-3a545a8c045b/abee54f0-2cdb-4b7f-9e1c-eeaa0dc000f5"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 40.64 146.05 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da65f821-ace3-4395-82ac-28f6ab5d9697")
 		(property "Reference" "R3"
-			(at 40.64 139.7 90)
+			(at 40.386 131.826 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1k"
-			(at 40.64 142.24 90)
+			(at 40.386 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 144.272 90)
+			(at 43.18 135.382 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +6214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 146.05 0)
+			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +6225,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 146.05 0)
+			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,7 +6252,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 54.61 146.05 0)
+		(at 57.15 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6071,30 +6260,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db07305e-58d1-4a7c-a04f-4e7ef51241e8")
 		(property "Reference" "D1"
-			(at 53.0225 139.7 0)
+			(at 53.086 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LED"
-			(at 53.0225 142.24 0)
+			(at 53.086 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 54.61 146.05 0)
+			(at 57.15 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6105,7 +6295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 146.05 0)
+			(at 57.15 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6306,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 54.61 146.05 0)
+			(at 57.15 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,7 +6317,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 54.61 146.05 0)
+			(at 57.15 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6508,6 +6698,86 @@
 			(project "szczupak_led_controller"
 				(path "/82787724-f8b9-4427-a07f-3a545a8c045b/abee54f0-2cdb-4b7f-9e1c-eeaa0dc000f5"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 49.53 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f60dd05d-4882-4c0f-9ca2-97b127285bff")
+		(property "Reference" "JP1"
+			(at 49.53 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 49.53 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 49.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 49.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "591db9e5-1de0-404e-8dfc-2c08c405cb9d")
+		)
+		(pin "1"
+			(uuid "4db49735-5625-4c2f-901a-3c72c9287093")
+		)
+		(instances
+			(project "szczupak_led_controller"
+				(path "/82787724-f8b9-4427-a07f-3a545a8c045b/abee54f0-2cdb-4b7f-9e1c-eeaa0dc000f5"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
