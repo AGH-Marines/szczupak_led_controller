@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -597,7 +597,7 @@
         "name": "POWER_3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(52, 242, 255)",
         "track_width": 0.4,
         "tuning_profile": "",
         "via_diameter": 0.6,
@@ -667,6 +667,45 @@
       "/01_power_input/12V_IN": [
         "POWER_12V"
       ],
+      "/02_mcu/LED_FAULT": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/02_mcu/LED_FAULT_R": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/02_mcu/LED_STATUS": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/02_mcu/LED_STATUS_R": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/02_mcu/SWDIO": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/03_interfaces/CAN_D": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/03_interfaces/CAN_N": [
+        "CAN_DIFF"
+      ],
+      "/03_interfaces/CAN_P": [
+        "CAN_DIFF"
+      ],
+      "/03_interfaces/CAN_R": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/03_interfaces/CAN_SHIELD_1": [
+        "CAN_DIFF"
+      ],
+      "/03_interfaces/CAN_SHIELD_2": [
+        "CAN_DIFF"
+      ],
+      "/03_interfaces/CC1": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/03_interfaces/CC2": [
+        "DEFAULT_SIGNAL"
+      ],
       "/03_interfaces/USB_D_ESD_N": [
         "USB_DIFF"
       ],
@@ -682,14 +721,53 @@
       "/04_power_output/12V_CH1": [
         "POWER_12V"
       ],
+      "/04_power_output/RCD_PWM_CH1": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/04_power_output/RCD_PWM_CH2": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/04_power_output/RCD_PWM_CH3": [
+        "DEFAULT_SIGNAL"
+      ],
       "/12V_LED": [
         "POWER_12V"
       ],
       "/CAN_RX": [
-        "CAN_DIFF"
+        "DEFAULT_SIGNAL"
       ],
       "/CAN_TX": [
-        "CAN_DIFF"
+        "DEFAULT_SIGNAL"
+      ],
+      "/GPIO_EXT": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/I2C1_SCL": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/I2C1_SDA": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/NRST": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/PWM_EXT": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/PWM_LED1": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/PWM_LED2": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/PWM_LED3": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/SWCLK_BOOT0": [
+        "DEFAULT_SIGNAL"
+      ],
+      "/USART1_RX": [
+        "DEFAULT_SIGNAL"
       ],
       "/USB_D_MCU_N": [
         "USB_DIFF"
@@ -698,7 +776,28 @@
         "USB_DIFF"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER_3V3",
+        "pattern": "*+3.3V"
+      },
+      {
+        "netclass": "POWER_5V",
+        "pattern": "*5V*"
+      },
+      {
+        "netclass": "ADC_SENSE",
+        "pattern": "*ADC*"
+      },
+      {
+        "netclass": "SHIELD",
+        "pattern": "*SHIELD*"
+      },
+      {
+        "netclass": "USB_DIFF",
+        "pattern": "*USB_D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
