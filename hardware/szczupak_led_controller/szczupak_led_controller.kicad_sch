@@ -30,7 +30,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 127) (xy 157.48 127)
+			(xy 171.45 132.08) (xy 157.48 132.08)
 		)
 		(stroke
 			(width 0)
@@ -70,6 +70,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 114.3) (xy 157.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1535d4d2-ded5-44c4-834b-3d211536d954")
+	)
+	(wire
+		(pts
 			(xy 99.06 113.03) (xy 113.03 113.03)
 		)
 		(stroke
@@ -80,7 +90,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 114.3) (xy 157.48 114.3)
+			(xy 171.45 119.38) (xy 157.48 119.38)
 		)
 		(stroke
 			(width 0)
@@ -90,7 +100,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 119.38) (xy 157.48 119.38)
+			(xy 171.45 124.46) (xy 157.48 124.46)
 		)
 		(stroke
 			(width 0)
@@ -110,6 +120,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25de82e2-91f9-4571-809b-a291daab48a2")
+	)
+	(wire
+		(pts
 			(xy 171.45 53.34) (xy 157.48 53.34)
 		)
 		(stroke
@@ -120,7 +140,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 121.92) (xy 157.48 121.92)
+			(xy 171.45 127) (xy 157.48 127)
 		)
 		(stroke
 			(width 0)
@@ -240,7 +260,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 116.84) (xy 157.48 116.84)
+			(xy 171.45 121.92) (xy 157.48 121.92)
 		)
 		(stroke
 			(width 0)
@@ -260,6 +280,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 116.84) (xy 157.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721b1fb1-ce09-4551-92d7-7b5848284458")
+	)
+	(wire
+		(pts
 			(xy 99.06 86.36) (xy 113.03 86.36)
 		)
 		(stroke
@@ -270,7 +300,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 124.46) (xy 157.48 124.46)
+			(xy 171.45 129.54) (xy 157.48 129.54)
 		)
 		(stroke
 			(width 0)
@@ -408,6 +438,16 @@
 		)
 		(uuid "f62d7a70-face-4782-adfa-d07eec078315")
 	)
+	(wire
+		(pts
+			(xy 171.45 77.47) (xy 157.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1c58de-a563-43cf-9baa-267d44842eec")
+	)
 	(label "USB_D_MCU_N"
 		(at 99.06 125.73 0)
 		(effects
@@ -498,6 +538,16 @@
 		)
 		(uuid "3f67a78a-8d79-4066-a43b-7666d95bd8cf")
 	)
+	(label "NRST"
+		(at 171.45 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5115e507-3958-46f2-9d09-bca0e7cb3b74")
+	)
 	(label "CAN_RX"
 		(at 99.06 67.31 0)
 		(effects
@@ -529,7 +579,7 @@
 		(uuid "5b2ae601-13a8-41c3-8a6e-39fa37d04752")
 	)
 	(label "GPIO_EXT"
-		(at 171.45 124.46 180)
+		(at 171.45 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -539,7 +589,7 @@
 		(uuid "5c970bd2-5b5e-48f8-af3f-24e04611a4b4")
 	)
 	(label "USART1_TX"
-		(at 171.45 114.3 180)
+		(at 171.45 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -549,7 +599,7 @@
 		(uuid "5f2b3135-f6cd-4b21-a54c-327553af2230")
 	)
 	(label "USART1_RX"
-		(at 171.45 116.84 180)
+		(at 171.45 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -589,7 +639,7 @@
 		(uuid "7698dc82-4d55-43c5-afe9-8f32b2d8b10b")
 	)
 	(label "I2C1_SCL"
-		(at 171.45 121.92 180)
+		(at 171.45 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -609,7 +659,7 @@
 		(uuid "7d6664b1-cc18-4a71-a9dc-82ccda836bd6")
 	)
 	(label "I2C1_SDA"
-		(at 171.45 119.38 180)
+		(at 171.45 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -688,6 +738,16 @@
 		)
 		(uuid "9eda2f5c-465f-421e-b5ef-807c3f13e781")
 	)
+	(label "NRST"
+		(at 171.45 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7c761cf-f69a-47e6-85f4-e09a7e27cfae")
+	)
 	(label "ADC_USB"
 		(at 99.06 129.54 0)
 		(effects
@@ -699,7 +759,7 @@
 		(uuid "b6c97a9f-eebb-4bfe-8477-738b9daf5457")
 	)
 	(label "PWM_EXT"
-		(at 171.45 127 180)
+		(at 171.45 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -707,6 +767,16 @@
 			(justify right bottom)
 		)
 		(uuid "bbbcb6b6-0c5e-4400-91a6-341d9f92f6fb")
+	)
+	(label "SWCLK_BOOT0"
+		(at 171.45 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c008514b-9e1d-4cf4-ba88-325b4b7b7b4b")
 	)
 	(label "ADC_LED1"
 		(at 99.06 81.28 0)
@@ -717,6 +787,16 @@
 			(justify left bottom)
 		)
 		(uuid "c178c220-ac89-44aa-9bc5-ff8e04e65b0f")
+	)
+	(label "SWCLK_BOOT0"
+		(at 171.45 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c21f5b78-4a6f-4c86-bf0e-cede591b89fb")
 	)
 	(label "I2C1_SCL"
 		(at 171.45 87.63 180)
@@ -810,7 +890,7 @@
 	)
 	(sheet
 		(at 113.03 109.22)
-		(size 44.45 24.13)
+		(size 44.45 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -836,7 +916,7 @@
 			)
 		)
 		(property "Sheetfile" "03_interfaces.kicad_sch"
-			(at 113.03 133.9346 0)
+			(at 113.03 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -847,7 +927,7 @@
 			)
 		)
 		(pin "PWM_EXT" bidirectional
-			(at 157.48 127 0)
+			(at 157.48 132.08 0)
 			(uuid "ad6970cf-6adf-49c9-9d72-199df17684b7")
 			(effects
 				(font
@@ -897,7 +977,7 @@
 			)
 		)
 		(pin "USART1_TX" bidirectional
-			(at 157.48 114.3 0)
+			(at 157.48 119.38 0)
 			(uuid "e20f37bb-d0f4-49ca-8184-015692e2c42e")
 			(effects
 				(font
@@ -907,7 +987,7 @@
 			)
 		)
 		(pin "USART1_RX" bidirectional
-			(at 157.48 116.84 0)
+			(at 157.48 121.92 0)
 			(uuid "1644d2f1-887f-4834-82d8-89ec5e7cb693")
 			(effects
 				(font
@@ -917,7 +997,7 @@
 			)
 		)
 		(pin "I2C1_SDA" bidirectional
-			(at 157.48 119.38 0)
+			(at 157.48 124.46 0)
 			(uuid "423f0f3b-d53f-415e-b051-7595c684ac51")
 			(effects
 				(font
@@ -927,7 +1007,7 @@
 			)
 		)
 		(pin "GPIO_EXT" bidirectional
-			(at 157.48 124.46 0)
+			(at 157.48 129.54 0)
 			(uuid "4b7f10c2-6f35-4e2e-a1f8-ab6fd8d6eb90")
 			(effects
 				(font
@@ -957,8 +1037,28 @@
 			)
 		)
 		(pin "I2C1_SCL" bidirectional
-			(at 157.48 121.92 0)
+			(at 157.48 127 0)
 			(uuid "9fc0e34f-5287-466d-929b-3e6d34fb1b18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 157.48 116.84 0)
+			(uuid "3c66adb4-02be-4e7e-989c-470feb8a83aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK_BOOT0" bidirectional
+			(at 157.48 114.3 0)
+			(uuid "359083e3-dc1f-4022-a0b8-04e3c3105ed8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,6 +1366,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 157.48 77.47 0)
+			(uuid "9a1737e5-a938-4a4f-8cd7-d07a32fe8887")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK_BOOT0" bidirectional
+			(at 157.48 74.93 0)
+			(uuid "484c65c4-e907-48e5-866b-061409e94332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
